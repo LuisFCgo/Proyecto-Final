@@ -1,0 +1,226 @@
+
+
+* {
+  align-items: center;
+  justify-content: center;
+}
+
+
+body {
+  background-image: url('./img/Avionesfond.jpeg');
+  background-color: rgb(249, 249, 249);
+}
+
+
+
+.card-body {
+  text-align: center;
+}
+
+.resaltado {
+  color: orangered;
+}
+
+.containerc {
+  padding: 10rem;
+}
+
+h1 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+
+#container-sub {
+  max-width: 150vh;
+  min-height: 316px;
+  padding: 5%;
+  background-color: orangered;
+  border-radius: 16px;
+}
+
+.orange-background {
+  background-color: orangered;
+}
+
+.card-t {
+  max-width: 370px;
+  max-height: 278px;
+}
+.card-t img {
+  width: 48px;
+  height: 48px;
+}
+
+.row-t{
+    max-width: 1170px;
+    max-height: 426px;
+}
+
+.color-text{
+    color: dimgrey;
+}
+
+.btn{
+  background: orangered;
+  color: aliceblue;
+}
+
+.nav-link:hover{
+  color: orangered;
+  font-size: 20px;
+}
+
+#container-seb {
+  display:flex;
+  max-width: 100vh;
+  min-height: 316px;
+  background-color: rgb(255, 123, 0);
+  border-radius: 16px;
+  color: aliceblue;
+  font-size: 20px;
+  
+}
+
+.list-unstyled {
+
+  font-weight: bold;
+  font-size: 20px;
+
+}
+
+.list-unstyled :hover{
+
+  color:orangered ;
+
+
+}
+
+.formale {
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 10%;
+}
+
+#container-reg {
+  background-color: rgb(255, 170, 0);
+  border-radius: 16px;
+}
+
+
+.contenedor-testimonio {
+  width: 1170px;
+  height: 368px;
+  margin: 10px 10px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff; 
+  box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);
+}
+
+.imagen-testimonio {
+  height: 100%;
+  width: auto;
+}
+
+.contenedor-texto-testimonio {
+  text-align: center;
+  padding: 40px;
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.nombre-testimonio {
+  font-size: 1.3rem;
+}
+
+.cargo-testimonio {
+  font-size: 1.3rem;
+  margin-top: 15px;
+  padding-bottom: 30px;
+}
+
+.texto-testimonio {
+  font-size: 1.1rem;
+  text-align: justify;
+}
+
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.cartas-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Espacio entre las cartas */
+}
+
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 768px) {
+  .cartas-container {
+      flex-direction: column; /* Apila las cartas en dispositivos móviles */
+      align-items: center;
+  }
+}
+
+
+
+/*esto son los estilos que me enviastes*/
+
+.imagen-hotel {
+  height: 75%;
+  width: 400px;
+}
+
+.nombre-pais {
+  color: orangered;
+  font-family:cursive;
+  font-size: 2rem;
+}
+
+.card-img-top:hover{
+  transform: scale(1.2);
+}
+
+.nombre-title {
+  color: orangered;
+  font-family:cursive;
+  font-size: 2rem;
+}
+
+.nombre-parrafo {
+  font-family:cursive;
+  font-size: 1.5rem;
+}
+
+.slider-container{
+  margin: 0px auto;
+  overflow-x:hidden;
+  /*order: 1px solid red;*/
+}
+
+.slider{
+  display: flex;
+  cursor: grab;
+}
+
+.item{
+  height: 40 rem;
+  max-width: 30 rem;
+  padding: 2 rem;
+}
+
+.item img{
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+}
+
