@@ -9,7 +9,7 @@ class Bloggers extends Component {
         imagen: 'Jhonny',
         cargo: 'Actor and musician',
         empresa: 'Pirates of Caribean',
-        testimonio: 'Amazon por haber cumplido con la meta de nuestro proyecto nos dio como agrado un viaje hacia un reourt en las bahamas y fue tan confortable haberlos elegidos fue una esperiencia que no olvidare'
+        testimonio: 'I went to trip on a resort in the bahamas and it was so comfortable, it was an unforgettable experience, you should not have doubts to take the first step to travel'
       },
       {
         nombre: 'Kate Winsley',
@@ -17,7 +17,7 @@ class Bloggers extends Component {
         imagen: 'Kate',
         cargo: 'England actrees',
         empresa: 'The Regimen',
-        testimonio: 'Al presentar el nuevo software diseñado por nuestra compañia se diseño un plan on vacation con el cliente para que se sienta identificado con nuestra compañia'
+        testimonio: 'I made a plan on vacation in the riviera maya and i knew a lot of beautiful palces like chichen itza pyramid, it was so wonderful'
       },
       {
         nombre: 'Leonardo DiCaprio',
@@ -25,7 +25,7 @@ class Bloggers extends Component {
         imagen: 'Leo',
         cargo: 'American actor',
         empresa: 'TItanic',
-        testimonio: 'MI experiencia fue muy relajante ya que al diseñar nuevo proyecto el nivel de stres esuvo por la nubes espor ello que abogue por realizar viaje placentero mientra me dedicaba a desarrollar'
+        testimonio: 'It was a fabolus experience, I went on a trip to know a lot of places that only they were whatched through the screen of your home'
       },
 
       {
@@ -34,7 +34,7 @@ class Bloggers extends Component {
         imagen: 'Ryder',
         cargo: 'American actress',
         empresa: 'Stranger Thing',
-        testimonio: 'MI experiencia fue muy relajante ya que al diseñar nuevo proyecto el nivel de stres esuvo por la nubes espor ello que abogue por realizar viaje placentero mientra me dedicaba a desarrollar'
+        testimonio: 'My experience was so relaxing, I trip across europa to the museums and south france beaches, also, I enjoyed of a soccer game in spain. It is very remmended'
       }
 
     ]
